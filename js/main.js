@@ -1,3 +1,6 @@
+var mq = window.matchMedia( "(min-width: 421px)" );
+
+if (mq.matches) {
 function scrollBanner() {
   $(document).scroll(function(){
     console.log("scrolling");
@@ -63,4 +66,4 @@ function scrollBanner() {
   });    
 }
 scrollBanner(); 
-
+}
