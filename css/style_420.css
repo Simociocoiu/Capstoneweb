@@ -113,7 +113,7 @@ center-blockmedia (max-width: 767px) {
 .home {
   background: url(../images/bkg_mobile-28.png) no-repeat center center fixed; 
   display: table;
-  height: 100%;
+  height: 600px;
   position: relative;
   width: 100%;
   -webkit-background-size: cover;
@@ -142,7 +142,7 @@ center-blockmedia (max-width: 767px) {
   padding-left:2px;
   background: url(../images/team.png) no-repeat center center fixed; 
   display: table;
-  height: 100%;
+  height: 600px;
   position: relative;
   width: 100%;
   -webkit-background-size: cover;
@@ -191,17 +191,20 @@ i.fa.fa-linkedin{
   width: 140px;
 } */
 
-.div.col-sm-2{
-  background-color: #000000;
+.col-sm-2{
+  /*background-color: #36A9E0;*/
+  background: rgba(54, 169, 224, 0.8);
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 
 .challenge1 {
   padding-top: 150px;
-  padding-bottom: 100px;
+  padding-bottom: 0px;
   background: url(../images/bkg_mobile-29.png) no-repeat center center fixed; 
   display: table;
-  height: 100%;
+  height: 600px;
   position: relative;
   width: 100%;
   -webkit-background-size: cover;
@@ -215,7 +218,7 @@ i.fa.fa-linkedin{
   padding-bottom: 100px;
   background: url(../images/bkg_mobile-30.png) no-repeat center center fixed; 
   display: table;
-  height: 100%;
+  height: 600px;
   position: relative;
   width: 100%;
   -webkit-background-size: cover;
@@ -229,7 +232,7 @@ i.fa.fa-linkedin{
   padding-bottom: 100px;
   background: url(../images/ecosystem-bun-04.png) no-repeat center center fixed; 
   display: table;
-  height: 100%;
+  height: 600px;
   position: relative;
   width: 100%;
   -webkit-background-size: cover;
@@ -243,7 +246,7 @@ i.fa.fa-linkedin{
   padding-bottom: 100px;
   background: url(../images/power.png) no-repeat center center fixed; 
   display: table;
-  height: 100%;
+  height: 600px;
   position: relative;
   width: 100%;
   -webkit-background-size: cover;
@@ -257,7 +260,7 @@ i.fa.fa-linkedin{
   padding-bottom: 100px;
   background: url(../images/communication.png) no-repeat center center fixed; 
   display: table;
-  height: 100%;
+  height: 600px;
   position: relative;
   width: 100%;
   -webkit-background-size: cover;
@@ -271,7 +274,7 @@ i.fa.fa-linkedin{
   padding-bottom: 100px;
   background: url(../images/manageability_cloudy.png) no-repeat center center fixed; 
   display: table;
-  height: 100%;
+  height: 600px;
   position: relative;
   width: 100%;
   -webkit-background-size: cover;
@@ -285,7 +288,7 @@ i.fa.fa-linkedin{
   padding-bottom: 100px;
   background: url(../images/sensingwcitizens_cloudy.png) no-repeat center center fixed; 
   display: table;
-  height: 100%;
+  height: 600px;
   position: relative;
   width: 100%;
   -webkit-background-size: cover;
@@ -299,7 +302,7 @@ i.fa.fa-linkedin{
   padding-bottom: 100px;
   background: url(../images/softsensing.png) no-repeat center center fixed; 
   display: table;
-  height: 100%;
+  height: 600px;
   position: relative;
   width: 100%;
   -webkit-background-size: cover;
@@ -313,7 +316,7 @@ i.fa.fa-linkedin{
   padding-bottom: 100px;
   background: url(../images/business1.png) no-repeat center center fixed; 
   display: table;
-  height: 100%;
+  height: 600px;
   position: relative;
   width: 100%;
   -webkit-background-size: cover;
@@ -327,7 +330,7 @@ i.fa.fa-linkedin{
   padding-bottom: 100px;
   background: url(../images/business2.png) no-repeat center center fixed; 
   display: table;
-  height: 100%;
+  height: 600px;
   position: relative;
   width: 100%;
   -webkit-background-size: cover;
@@ -690,7 +693,7 @@ i.fa.fa-linkedin{
   padding-bottom: 100px;
   background: url(../images/sunset_bkg_scaffold.jpg) no-repeat center center fixed; 
   display: table;
-  height: 100%;
+  height: 600px;
   position: relative;
   width: 100%;
   -webkit-background-size: cover;
@@ -744,7 +747,7 @@ i.fa.fa-linkedin{
   padding-left:2px;
   background: url(../images/team.png) no-repeat center center fixed; 
   display: table;
-  height: 100%;
+  height: 600px;
   position: relative;
   width: 100%;
   -webkit-background-size: cover;
