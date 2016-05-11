@@ -140,7 +140,7 @@ center-blockmedia (max-width: 767px) {
   font-size: 2.2em;
   line-height: 1;
   /*text-transform: uppercase;*/
-  letter-spacing: 1px;
+  /*letter-spacing: 1px;*/
   color: #ffffff;
   font-weight: 700;
   display: block;
