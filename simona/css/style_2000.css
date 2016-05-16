@@ -28,8 +28,10 @@ html, body {
 
 /*bit i added to change the header attributes*/
 .navbar-default {
-  background-color: #29aae2;
-  border-color: #29aae2;
+  /*background-color: #29aae2;
+  border-color: #29aae2;*/
+  background: transparent;
+  border: transparent;
 }
 .navbar-default .navbar-brand {
   font-family: 'Source Sans Pro', sans-serif;
@@ -92,7 +94,7 @@ html, body {
   color: #d8d8d8;
 }
 
-center-blockmedia (max-width: 767px) {
+.center-blockmedia (max-width: 767px){
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #ecf0f1;
   }
@@ -334,19 +336,8 @@ i.fa.fa-linkedin{
   -o-background-size: cover;
   background-size: cover;
 }
-.information1 h2{
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 2em;
-  line-height: 1em;
-  letter-spacing: 0em;
-  color: #ffffff;
-  display: block;
-  font-weight: 700;
-  margin: 0;
-  padding: 0;
-}
 
-.information1 p{
+.whitetype p{
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1em;
   line-height: 1.2em;
@@ -357,7 +348,7 @@ i.fa.fa-linkedin{
   padding: 0;
 }
 
-.information1 p1{
+.whitetype h4{
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1em;
   line-height: 1.2em;
@@ -369,7 +360,7 @@ i.fa.fa-linkedin{
   padding: 0;
 }
 
-.information2 h2{
+.whitetype h2{
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 2em;
   line-height: 1em;
@@ -381,308 +372,71 @@ i.fa.fa-linkedin{
   padding: 0;
 }
 
-.information2 p{
+
+
+.blacktype h2{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2em;
+  line-height: 1em;
+  letter-spacing: 0em;
+
+  color: #000000;
+  display: block;
+  font-weight: 700;
+  margin-bottom: 0.7em;
+  padding: 0;
+}
+
+.blacktype p{
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1em;
   line-height: 1.2em;
+  letter-spacing: 0.5px;
+  color: #000000;
+  display: block;
+  font-weight: 400;
+  padding: 0;
+}
+
+.label_billion_dev h4{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1em;
+  background-color: #0F5268;
   letter-spacing: 0.5px;
   color: #ffffff;
   display: block;
   font-weight: 300;
-  padding: 0;
+  width:159px;
+  padding: 5px;
 }
 
-.information2 p1{
+
+.label_citizen_engagement h4{
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1em;
-  line-height: 1.2em;
-  letter-spacing: 0.5px;
-  color: #ffffff;
-  display: block;
-  font-weight: 400;
-  margin-top: 20px;
-  padding: 0;
-}
-
-.information3 h2{
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 2em;
-  line-height: 1em;
-  letter-spacing: 0em;
-  color: #ffffff;
-  display: block;
-  font-weight: 700;
-  margin: 0;
-  padding: 0;
-}
-
-.information3 p{
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1em;
-  line-height: 1.2em;
+  background-color: #1D90A0;
   letter-spacing: 0.5px;
   color: #ffffff;
   display: block;
   font-weight: 300;
-  padding: 0;
+  width:133px;
+  padding: 5px;
 }
 
-.information3 p1{
+
+.label_ecosystems h4{
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1em;
   line-height: 1.2em;
+  background-color: #004168;
   letter-spacing: 0.5px;
   color: #ffffff;
   display: block;
-  font-weight: 400;
-  margin-top: 20px;
-  padding: 0;
+  font-weight: 300;
+  width:140px;
+  padding: 5px;
 }
 
-.information4 h2{
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 2em;
-  line-height: 1em;
-  letter-spacing: 0em;
-  color: #000000;
-  display: block;
-  font-weight: 700;
-  margin: 0;
-  padding: 0;
-}
-
-.information4 p{
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1em;
-  line-height: 1.2em;
-  letter-spacing: 0.5px;
-  color: #000000;
-  display: block;
-  font-weight: 400;
-  padding: 0;
-}
-
-.information4 p1{
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1em;
-  line-height: 1.2em;
-  letter-spacing: 0.5px;
-  color: #000000;
-  display: block;
-  font-weight: 600;
-  margin-top: 20px;
-  padding: 0;
-}
-
-.information5 h2{
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 2em;
-  line-height: 1em;
-  letter-spacing: 0em;
-  color: #000000;
-  display: block;
-  font-weight: 700;
-  margin: 0;
-  padding: 0;
-}
-
-.information5 p{
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1em;
-  line-height: 1.2em;
-  letter-spacing: 0.5px;
-  color: #000000;
-  display: block;
-  font-weight: 400;
-  padding: 0;
-}
-
-.information5 p1{
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1em;
-  line-height: 1.2em;
-  letter-spacing: 0.5px;
-  color: #000000;
-  display: block;
-  font-weight: 600;
-  margin-top: 20px;
-  padding: 0;
-}
-
-.information6 h2{
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 2em;
-  line-height: 1em;
-  letter-spacing: 0em;
-  color: #000000;
-  display: block;
-  font-weight: 700;
-  margin: 0;
-  padding: 0;
-}
-
-.information6 p{
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1em;
-  line-height: 1.2em;
-  letter-spacing: 0.5px;
-  color: #000000;
-  display: block;
-  font-weight: 400;
-  padding: 0;
-}
-
-.information6 p1{
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1em;
-  line-height: 1.2em;
-  letter-spacing: 0.5px;
-  color: #000000;
-  display: block;
-  font-weight: 600;
-  margin-top: 20px;
-  padding: 0;
-}
-
-.information7 h2{
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 2em;
-  line-height: 1em;
-  letter-spacing: 0em;
-  color: #000000;
-  display: block;
-  font-weight: 700;
-  margin: 0;
-  padding: 0;
-}
-
-.information7 p{
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1em;
-  line-height: 1.2em;
-  letter-spacing: 0.5px;
-  color: #000000;
-  display: block;
-  font-weight: 400;
-  padding: 0;
-}
-
-.information7 p1{
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1em;
-  line-height: 1.2em;
-  letter-spacing: 0.5px;
-  color: #000000;
-  display: block;
-  font-weight: 600;
-  margin-top: 20px;
-  padding: 0;
-}
-
-.information8 h2{
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 2em;
-  line-height: 1em;
-  letter-spacing: 0em;
-  color: #ffffff;
-  display: block;
-  font-weight: 700;
-  margin: 0;
-  padding: 0;
-}
-
-.information8 p{
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1em;
-  line-height: 1.2em;
-  letter-spacing: 0.5px;
-  color: #ffffff;
-  display: block;
-  font-weight: 400;
-  padding: 0;
-}
-
-.information8 p1{
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1em;
-  line-height: 1.2em;
-  letter-spacing: 0.5px;
-  color: #ffffff;
-  display: block;
-  font-weight: 600;
-  margin-top: 20px;
-  padding: 0;
-}
-
-.information9 h2{
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 2em;
-  line-height: 1em;
-  letter-spacing: 0em;
-  color: #000000;
-  display: block;
-  font-weight: 700;
-  margin: 0;
-  padding: 0;
-}
-
-.information9 p{
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1em;
-  line-height: 1.2em;
-  letter-spacing: 0.5px;
-  color: #000000;
-  display: block;
-  font-weight: 400;
-  padding: 0;
-}
-
-.information9 p1{
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1em;
-  line-height: 1.2em;
-  letter-spacing: 0.5px;
-  color: #000000;
-  display: block;
-  font-weight: 600;
-  margin-top: 20px;
-  padding: 0;
-}
-
-.information10 h2{
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 2em;
-  line-height: 1em;
-  letter-spacing: 0em;
-  color: #000000;
-  display: block;
-  font-weight: 700;
-  margin: 0;
-  padding: 0;
-}
-
-.information10 p{
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1em;
-  line-height: 1.2em;
-  letter-spacing: 0.5px;
-  color: #000000;
-  display: block;
-  font-weight: 400;
-  padding: 0;
-}
-
-.information10 p1{
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1em;
-  line-height: 1.2em;
-  letter-spacing: 0.5px;
-  color: #000000;
-  display: block;
-  font-weight: 600;
-  margin-top: 20px;
-  padding: 0;
-}
 
 #about { 
   padding-top: 70px;
