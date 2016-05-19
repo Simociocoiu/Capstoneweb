@@ -1,10 +1,6 @@
-
-
-
-
-/* fixed background images */
+/* background images with no fixed image */
 .home {
-  background: url(../images/vision.png) no-repeat center center fixed; 
+  background: url(../images/bkg.png) no-repeat center center; 
   display: table;
   height: 100%;
   position: relative;
@@ -13,14 +9,12 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/vision.png', sizingMethod='scale');
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/vision.png', sizingMethod='scale')";
 }
 
 .challenge1 {
   padding-top: 70px;
   padding-bottom: 100px;
-  background: url(../images/billion_device.png) no-repeat center center fixed; 
+  background: url(../images/sensors-bun-mare-04.png) no-repeat center center; 
   display: table;
   height: 100%;
   position: relative;
@@ -29,14 +23,13 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/billion_device.png', sizingMethod='scale');
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/billion_device.png', sizingMethod='scale')";
 }
+
 
 .challenge2 {
   padding-top: 70px;
   padding-bottom: 100px;
-  background: url(../images/citizen.png) no-repeat center center fixed; 
+  background: url(../images/bkg-plin-29.png) no-repeat center center; 
   display: table;
   height: 100%;
   position: relative;
@@ -45,14 +38,12 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/billion_device.png', sizingMethod='scale');
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/billion_device.png', sizingMethod='scale')";
 }
 
 .challenge3 { 
   padding-top: 70px;
   padding-bottom: 100px;
-  background: url(../images/circulatory.png) no-repeat center center fixed; 
+  background: url(../images/ecosystem-bun-04.png) no-repeat center center; 
   display: table;
   height: 100%;
   position: relative;
@@ -66,7 +57,7 @@
 .solution1 { 
   padding-top: 70px;
   padding-bottom: 100px;
-  background: url(../images/power.png) no-repeat center center fixed; 
+  background: url(../images/power.png) no-repeat center center; 
   display: table;
   height: 100%;
   position: relative;
@@ -80,7 +71,7 @@
 .solution2 { 
   padding-top: 70px;
   padding-bottom: 100px;
-  background: url(../images/communication.png) no-repeat center center fixed; 
+  background: url(../images/communication.png) no-repeat center center; 
   display: table;
   height: 100%;
   position: relative;
@@ -94,7 +85,7 @@
 .solution3 { 
   padding-top: 70px;
   padding-bottom: 100px;
-  background: url(../images/manageability_cloudy.png) no-repeat center center fixed; 
+  background: url(../images/manageability_cloudy.png) no-repeat center center; 
   display: table;
   height: 100%;
   position: relative;
@@ -108,7 +99,7 @@
 .solution4 { 
   padding-top: 70px;
   padding-bottom: 100px;
-  background: url(../images/sensingwcitizens_cloudy.png) no-repeat center center fixed; 
+  background: url(../images/sensingwcitizens_cloudy.png) no-repeat center center; 
   display: table;
   height: 100%;
   position: relative;
@@ -122,7 +113,7 @@
 .solution5 { 
   padding-top: 70px;
   padding-bottom: 100px;
-  background: url(../images/softsensing.png) no-repeat center center fixed; 
+  background: url(../images/softsensing.png) no-repeat center center; 
   display: table;
   height: 100%;
   position: relative;
@@ -136,7 +127,7 @@
 .solution6 { 
   padding-top: 70px;
   padding-bottom: 100px;
-  background: url(../images/business1.png) no-repeat center center fixed; 
+  background: url(../images/business1.png) no-repeat center center; 
   display: table;
   height: 100%;
   position: relative;
@@ -150,7 +141,7 @@
 .solution7 { 
   padding-top: 70px;
   padding-bottom: 100px;
-  background: url(../images/business2.png) no-repeat center center fixed; 
+  background: url(../images/business2.png) no-repeat center center; 
   display: table;
   height: 100%;
   position: relative;
@@ -164,8 +155,9 @@
 .team { 
   padding-top: 70px;
   padding-bottom: 50px;
-  padding-left:2px;
-  background: url(../images/team.png) no-repeat center center fixed; 
+  padding-left: 2px;
+  background-color: #ffffff;
+  /*background: url(../images/team.png) no-repeat center center; */
   display: table;
   height: 100%;
   position: relative;
@@ -179,22 +171,20 @@
 #about { 
   padding-top: 70px;
   padding-bottom: 100px;
-  background: url(../images/sunset_bkg_scaffold.jpg) no-repeat center center fixed; 
-  display: table;
-  height: 100%;
-  position: relative;
-  width: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+background: -moz-linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(255,235,204,1) 17%, rgba(236,181,145,1) 73%, rgba(204,202,200,1) 100%); /* ff3.6+ */
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(17%, rgba(255,235,204,1)), color-stop(73%, rgba(236,181,145,1)), color-stop(100%, rgba(204,202,200,1))); /* safari4+,chrome */
+background: -webkit-linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(255,235,204,1) 17%, rgba(236,181,145,1) 73%, rgba(204,202,200,1) 100%); /* safari5.1+,chrome10+ */
+background: -o-linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(255,235,204,1) 17%, rgba(236,181,145,1) 73%, rgba(204,202,200,1) 100%); /* opera 11.10+ */
+background: -ms-linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(255,235,204,1) 17%, rgba(236,181,145,1) 73%, rgba(204,202,200,1) 100%); /* ie10+ */
+background: linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(255,235,204,1) 17%, rgba(236,181,145,1) 73%, rgba(204,202,200,1) 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#CCCAC8', endColorstr='#ffffff',GradientType=1 ); /* ie6-9 */
 }
 
 #video { 
   padding-top: 50px;
   padding-bottom: 50px;
   padding-left:2px;
-  background: url(../images/team.png) no-repeat center center fixed; 
+  background: #ffffff; 
   display: table;
   height: 100%;
   position: relative;
@@ -203,14 +193,5 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
 }
-
-/*end of fixed background images*/
-
-
-
-div.row{
-  padding-bottom: 40px;
-}
-
+/* end of background images with no fixed bkg */
