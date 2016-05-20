@@ -1,0 +1,51 @@
+
+/*landing page banner - added margins*/
+
+.wrap-center{
+  margin-left:70px;
+  margin-right:70px;
+  position: relative;
+  max-width: 55.231em;
+}
+/*end of banner changes */
+
+/* defines background colour for all sections with the visible-sm class*/
+.challenge-cub123 {
+  background-color: #29aae2;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* end of visible-sm attributes */
+
+
+/* tweak for team photos */
+.photo{
+  margin-bottom:1em;
+}
+
+/*tweak for challenges white text*/
+.whitetype h2{
+  margin-top: 5em;
+}
+
+
+.vision{
+  margin-top:16em;
+  margin-bottom: 7.7em;
+}
+.vision h2{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 3em;
+  line-height: 1.1;
+  /*text-transform: uppercase;*/
+  letter-spacing: 1px;
+  color: #ffffff;
+  font-weight: 700;
+  display: block;
+}
+
