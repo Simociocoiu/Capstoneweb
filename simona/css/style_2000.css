@@ -66,7 +66,7 @@
 .solution1 { 
   padding-top: 70px;
   padding-bottom: 100px;
-  background: url(../images/power.png) no-repeat center center fixed; 
+  background: url(../images/solution-power.png) no-repeat center center fixed; 
   display: table;
   height: 100%;
   position: relative;
@@ -80,7 +80,7 @@
 .solution2 { 
   padding-top: 70px;
   padding-bottom: 100px;
-  background: url(../images/communication.png) no-repeat center center fixed; 
+  background: url(../images/solution-comunication.png) no-repeat center center fixed; 
   display: table;
   height: 100%;
   position: relative;
@@ -94,7 +94,7 @@
 .solution3 { 
   padding-top: 70px;
   padding-bottom: 100px;
-  background: url(../images/manageability_cloudy.png) no-repeat center center fixed; 
+  background: url(../images/solution-management.png) no-repeat center center fixed; 
   display: table;
   height: 100%;
   position: relative;
@@ -108,7 +108,7 @@
 .solution4 { 
   padding-top: 70px;
   padding-bottom: 100px;
-  background: url(../images/sensingwcitizens_cloudy.png) no-repeat center center fixed; 
+  background: url(../images/citizen_sensing.png) no-repeat center center fixed; 
   display: table;
   height: 100%;
   position: relative;
@@ -122,7 +122,7 @@
 .solution5 { 
   padding-top: 70px;
   padding-bottom: 100px;
-  background: url(../images/softsensing.png) no-repeat center center fixed; 
+  background: url(../images/citizen-sensing2.png) no-repeat center center fixed; 
   display: table;
   height: 100%;
   position: relative;
@@ -136,7 +136,7 @@
 .solution6 { 
   padding-top: 70px;
   padding-bottom: 100px;
-  background: url(../images/business1.png) no-repeat center center fixed; 
+  background: url(../images/solution-circulatory1.png) no-repeat center center fixed; 
   display: table;
   height: 100%;
   position: relative;
@@ -150,7 +150,7 @@
 .solution7 { 
   padding-top: 70px;
   padding-bottom: 100px;
-  background: url(../images/business2.png) no-repeat center center fixed; 
+  background: url(../images/solution-circulatory2.png) no-repeat center center fixed; 
   display: table;
   height: 100%;
   position: relative;
