@@ -22,7 +22,7 @@ html, body {
   color: #ffffff;
 }
 
-.navbar-brand-video{
+.navbar-default .navbar-brand-video{
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 2.4em;
   letter-spacing: 0.05px;
@@ -30,11 +30,18 @@ html, body {
   color: #000000;
 }
 
-
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
   color: #ffffff;
 }
+
+.navbar-default .navbar-brand-video:hover, 
+.navbar-default .navbar-brand-video:focus{
+  color: #000000;
+  text-decoration: none;
+}
+
+
 .navbar-default .navbar-text {
   color: #ffffff;
 }
