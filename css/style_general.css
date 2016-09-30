@@ -52,7 +52,7 @@ html, body {
   letter-spacing: 0.1px;
   display: block;
   font-weight: 400;
-  color: #ecf0f1;
+  color: #dbdbdb;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -181,14 +181,39 @@ html, body {
 
 .whitetype h2{
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 2em;
+  font-size: 1.8em;
   line-height: 1em;
   letter-spacing: 0em;
   color: #ffffff;
   display: block;
   font-weight: 700;
-  margin: 0;
+  margin-top: 25px;
   padding: 0;
+}
+
+.whitetype h1{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2.8em;
+  /*background-color: #ffffff;
+  border-style: solid;
+  border-left: 0px;
+  border-width: 5px;
+  margin-right:1em;
+  padding:7px;*/
+  line-height: 0.9em;
+  letter-spacing: 0em;
+  color: #ffffff;
+  display: block;
+  border-style: solid;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0em;
+  border-width:6px;
+  padding-bottom:7px;
+  font-weight: 700;
+  /*opacity: 0.5;*/
+  margin-top: 0em;
+  max-width: 160px;
 }
 
 .blacktype h2{
@@ -215,6 +240,31 @@ html, body {
   padding: 0;
 }
 
+.blacktype h1{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2.8em;
+  /*background-color: #ffffff;
+  border-style: solid;
+  border-left: 0px;
+  border-width: 5px;
+  margin-right:1em;
+  padding:7px;*/
+  line-height: 0.9em;
+  letter-spacing: 0em;
+  color: #000000;
+  display: block;
+  border-style: solid;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0em;
+  border-width:6px;
+  padding-bottom:7px;
+  font-weight: 700;
+  /*opacity: 0.5;*/
+  margin-top: 0em;
+  max-width: 143px;
+}
+
 .label_billion_dev h4{
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1em;
@@ -225,6 +275,7 @@ html, body {
   font-weight: 300;
   width:159px;
   padding: 5px;
+  margin-top:1.9em;
 }
 
 .label_citizen_engagement h4{
@@ -250,6 +301,26 @@ html, body {
   font-weight: 300;
   width:140px;
   padding: 5px;
+}
+
+.project_update h2{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  /*background-color: #f44242;*/
+  letter-spacing: 0.5px;
+  color: #f44242;
+  display: block;
+  font-weight: 700;
+  
+  
+  margin-top:1.9em;
+  
+}
+
+.label_ecosystems a:hover, a:visited, a:link, a:active{
+    color: #FFFFFF;
+    text-decoration: none;
 }
 /* end of challenges and solutions type specs */
 
@@ -343,7 +414,7 @@ html, body {
 
 #video h2{
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 2em;
+  font-size: 3em;
   line-height: 1em;
   letter-spacing: 0em;
   color: #000000;
@@ -353,7 +424,40 @@ html, body {
   padding: 0;
 
 }
+
 /* end of video page type specs */
+
+/* project updates specs */
+.projects img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.video a:hover, a:visited, a:link, a:active{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.project_update i{
+  color:#f44242;
+}
+
+.apply_now h4{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1em;
+  background-color: #f44242;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  display: block;
+  font-weight: 300;
+  width:159px;
+  padding: 10px;
+  margin-top:1.9em;
+  margin-left: -24px;
+  text-align: center;
+}
+
+/* end of project updates specs */
 
 /* font-awesome icons for team page and footer*/
 i{
