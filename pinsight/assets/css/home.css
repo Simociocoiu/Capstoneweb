@@ -27,6 +27,9 @@ section#introduction {
 	width: 100%;
 	height: 100%;
 }
+section#introduction a {
+	border-bottom: 2px solid #fff;
+}
 
 span#top-line,
 span#bot-line {
@@ -206,6 +209,7 @@ section#quadrants {
 }
 
 section#quadrants div.quadrant {
+	position: relative;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -242,7 +246,55 @@ section#quadrants div.quadrant.green.image {
 	background-size: cover;
 }
 
+section#quadrants div.quadrant span.bg {
+	z-index: 1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+}
+section#quadrants div.quadrant span.bg.bg-active {
+	opacity: 0.1;
+}
+section#quadrants div.quadrant span.bg.bg-1 {
+	background: url('../images/bg-1.jpg') no-repeat center;
+	background-size: cover;
+}
+section#quadrants div.quadrant span.bg.bg-2 {
+	background: url('../images/bg-2.jpg') no-repeat center;
+	background-size: cover;
+}
+section#quadrants div.quadrant span.bg.bg-3 {
+	background: url('../images/bg-3.jpg') no-repeat center;
+	background-size: cover;
+}
+section#quadrants div.quadrant span.bg.bg-4 {
+	background: url('../images/bg-4.jpg') no-repeat center;
+	background-size: cover;
+}
+section#quadrants div.quadrant span.bg.bg-5 {
+	background: url('../images/bg-5.jpg') no-repeat center;
+	background-size: cover;
+}
+section#quadrants div.quadrant span.bg.bg-6 {
+	background: url('../images/bg-6.jpg') no-repeat center;
+	background-size: cover;
+}
+section#quadrants div.quadrant span.bg.bg-7 {
+	background: url('../images/bg-7.jpg') no-repeat center;
+	background-size: cover;
+}
+section#quadrants div.quadrant span.bg.bg-8 {
+	background: url('../images/bg-8.jpg') no-repeat center;
+	background-size: cover;
+}
+
 section#quadrants div.quadrant span.pin {
+	z-index: 2;
+	position: relative;
 	display: block;
 	overflow: hidden;
 	text-indent: -2000px;

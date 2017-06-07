@@ -2,7 +2,8 @@ $(window).on("load", function() {
 
 	var images = [
 		'pin-cyan.png', 'pin-green.png', 'pin-red.png', 'pin-yellow.png', 'hashtag.png',
-		'bg-red.jpg', 'bg-yellow.jpg', 'bg-green.jpg', 'bg-cyan.jpg'
+		// 'bg-red.jpg', 'bg-yellow.jpg', 'bg-green.jpg', 'bg-cyan.jpg'
+		'bg-1.jpg', 'bg-2.jpg', 'bg-3.jpg', 'bg-4.jpg', 'bg-5.jpg', 'bg-6.jpg', 'bg-7.jpg', 'bg-8.jpg'
 	];
 	var imageIndex = 0;
 
@@ -42,7 +43,55 @@ $(window).on("load", function() {
 		var quadLastPalette = 0;
 		var pinLastPalette = 0;
 
-		setInterval( changeQuadrants, 1800);
+		var quadCounter = 0;
+
+		var lastQuadRandNum = 0;
+
+		setInterval( changeQuadrantsBg, 600);
+
+		function changeQuadrantsBg()
+		{
+			// Fade out random one of current bg
+			var quadRandNum = Math.floor(Math.random()*(4));
+
+			if ( quadRandNum == lastQuadRandNum ) {
+				quadRandNum++;
+				if ( quadRandNum > 3)
+					quadRandNum = 0;
+			}
+
+			lastQuadRandNum = quadRandNum;
+			// console.log(quadRandNum);
+
+			var $quadBgs = $(".quadrant").eq(quadRandNum).find("span.bg");
+
+			$quadBgs.each( function(i, el) {
+				var $el = $(el);
+
+				if ( $el.hasClass("bg-active") )
+					$el.fadeTo(600, 0.1, function() {});
+				else
+					$el.fadeTo(600, 0, function() {});
+
+				if ( $el.hasClass("bg-active") )
+					$el.removeClass("bg-active");
+				else
+					$el.addClass("bg-active");
+			});
+
+			// var quadIndices = [];
+
+			// $(".quadrant").each( function(i, quadrant) {
+			// 	if ( $(quadrant).hasClass( "bg-active" ) )
+			// 		quadIndices.push( $(quadrant).index() );
+			// });
+
+			// var randQuadIndex = Math.floor(Math.random()*(quadIndices.length));
+
+			// $(".quadrant").eq(randQuadIndex)
+			// 	.removeClass("bg-active")
+			// 	.find("span.bg").fadeOut(500, function() {});
+		}
 
 		function changeQuadrants()
 		{
@@ -60,15 +109,18 @@ $(window).on("load", function() {
 			quadLastPalette = quadRandNum;
 			pinLastPalette = pinRandNum;
 
-			var quadPalette = colours[ quadRandNum ];
+			// var quadPalette = colours[ quadRandNum ];
+			var quadPalette = colours[ quadCounter ];
 			var pinPalette = colours[ pinRandNum ];
-			
+
+
 			$(".quadrant").each( function(i) {
 
 				// Change the quadrant bg colour
 				$(this)
-					.removeClass( quadPalette.join(" ") + " image" )
-					.addClass( quadPalette[i] );
+					.removeClass( "image" );
+					// .removeClass( quadPalette.join(" ") + " image" )
+					// .addClass( quadPalette[i] );
 
 				// Make it a bg image if randomly selected
 				if ( i == quadImageRandNum1 )
@@ -82,6 +134,11 @@ $(window).on("load", function() {
 				// 	.removeClass( pinPalette.join(" ") + " image" )
 				// 	.addClass( pinPalette[i] );
 			});
+
+			if ( quadCounter == 3 )
+				quadCounter = 0;
+			else
+				++quadCounter;
 		}
 	}
 
